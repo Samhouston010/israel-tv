@@ -1,0 +1,53 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Keshet 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Keshet 12
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8?hdnea=st%3D1782363185%7Eexp%3D1782364085%7Eacl%3D%2F*%7Ehmac%3D8983dc5e83f6e600cffd41c6b9f8d2213a29fb3a831ca8ee9e5946544663a6f1
+#EXTINF:-1 tvg-name="Keshet 12 DVR" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Keshet 12 DVR
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12dvr/index.m3u8?hdnea=st%3D1782363185%7Eexp%3D1782364085%7Eacl%3D%2F*%7Ehmac%3D8983dc5e83f6e600cffd41c6b9f8d2213a29fb3a831ca8ee9e5946544663a6f1
+#EXTINF:-1 tvg-name="N12 News" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",N12 News
+https://mako-streaming.akamaized.net/n12/hls/live/2103938/k12/index.m3u8?hdnea=st%3D1782363186%7Eexp%3D1782364086%7Eacl%3D%2F*%7Ehmac%3D1699027441cbaf517cd2d7cd242d98f3768a0fea2a906f6681732f7571097fb1
+#EXTINF:-1 tvg-name="Keshet 12 CC" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Keshet 12 CC
+https://mako-streaming.akamaized.net/direct/hls/live/2035325/k12cc/index.m3u8?hdnea=st%3D1782363186%7Eexp%3D1782364086%7Eacl%3D%2F*%7Ehmac%3D1699027441cbaf517cd2d7cd242d98f3768a0fea2a906f6681732f7571097fb1
+#EXTINF:-1 tvg-name="Channel 24" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Channel 24
+https://mako-streaming.akamaized.net/direct/hls/live/2035340/ch24live/index.m3u8?hdnea=st%3D1782363186%7Eexp%3D1782364086%7Eacl%3D%2F*%7Ehmac%3D1699027441cbaf517cd2d7cd242d98f3768a0fea2a906f6681732f7571097fb1
+#EXTINF:-1 tvg-name="Eretz Nehederet" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Eretz Nehederet
+https://mako-streaming.akamaized.net/free/hls/live/2111419/erets/index.m3u8?hdnea=st%3D1782363187%7Eexp%3D1782364087%7Eacl%3D%2F*%7Ehmac%3D4438e52d97ef0e72a9c28e888ca5d89ed7f36b765b72103fff7cad73c6ff6aae
+#EXTINF:-1 tvg-name="Kan 11" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan 11
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-name="Kan 11 HD" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan 11 HD
+https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8?dvr=21600000
+#EXTINF:-1 tvg-name="Kan Educational 23" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan Educational 23
+https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8?dvr=21600000
+#EXTINF:-1 tvg-name="Kan Kids" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan Kids
+https://kankids.media.kan.org.il/hls/live/2024820/2024820/playlist.m3u8
+#EXTINF:-1 tvg-name="Makan 33" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Makan 33
+https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8?dvr=21600000
+#EXTINF:-1 tvg-name="Reshet 13" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png" group-title="Israel",Reshet 13
+https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
+#EXTINF:-1 tvg-name="13 Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png" group-title="Israel",13 Comedy
+https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8
+#EXTINF:-1 tvg-name="13 Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png" group-title="Israel",13 Reality
+https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/index.m3u8
+#EXTINF:-1 tvg-name="13 Vacation" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png" group-title="Israel",13 Vacation
+https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index.m3u8
+#EXTINF:-1 tvg-name="Now 14" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/0/0f/Channel_14_logo.svg/320px-Channel_14_logo.svg.png" group-title="Israel",Now 14
+https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8?dvr=21600000
+#EXTINF:-1 tvg-name="Channel 10 Economy" tvg-logo="" group-title="Israel",Channel 10 Economy
+https://r.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8?dvr=21600000
+#EXTINF:-1 tvg-name="Channel 9 Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Channel_9_Israel_Logo.svg/320px-Channel_9_Israel_Logo.svg.png" group-title="Israel",Channel 9 Russian
+https://contact.gostreaming.tv/Con-11/index.m3u8
+#EXTINF:-1 tvg-name="Knesset 99" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Knesset_Channel.svg/320px-Knesset_Channel.svg.png" group-title="Israel",Knesset 99
+https://kneset.gostreaming.tv/p2-kneset/_definst_/myStream/index.m3u8
+#EXTINF:-1 tvg-name="i24 News Hebrew" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/i24news.default.svg" group-title="Israel",i24 News Hebrew
+https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-name="i24 News English" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/i24news.default.svg" group-title="Israel",i24 News English
+https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-name="i24 News Arabic" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/i24news.default.svg" group-title="Israel",i24 News Arabic
+https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-name="Sport 5" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/b/b8/Sport5_logo.svg/320px-Sport5_logo.svg.png" group-title="Israel",Sport 5
+https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8
+#EXTINF:-1 tvg-name="Ynet Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ynet_website_logo.svg/320px-Ynet_website_logo.svg.png" group-title="Israel",Ynet Live
+https://ynet-live-01.ynet-pic1.yit.co.il/ynet/live.m3u8
+#EXTINF:-1 tvg-name="100FM TV" tvg-logo="" group-title="Israel",100FM TV
+https://cdn.cybercdn.live/Radios_100FM/Video/playlist.m3u8
+#EXTINF:-1 tvg-name="Hidabroot 97" tvg-logo="" group-title="Israel",Hidabroot 97
+https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8

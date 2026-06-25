@@ -1,0 +1,22 @@
+name: Update Israel TV Tokens
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # every 10 minutes
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python update.py
+      - run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add israel.m3u
+          git diff --cached --quiet || git commit -m "Auto-update tokens $(date -u +%H:%M)"
+          git push
