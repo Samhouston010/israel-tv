@@ -4,6 +4,10 @@ import requests, json, subprocess
 TOKEN_URL = "https://mass.mako.co.il/ClicksStatistics/entitlementsServicesV2.jsp"
 CDN = "https://mako-streaming.akamaized.net"
 
+# user request 2026-07-12: no logo anywhere upstream -- pulled from each channel's own
+# site/app-store listing, downloaded and self-hosted here so they can't break elsewhere
+_LOGOS = "https://raw.githubusercontent.com/Samhouston010/israel-tv/main/logos"
+
 # YouTube live channels -- HLS manifest URL expires after a few hours, so it's
 # re-resolved via yt-dlp on every run (same 10-min cron as the Keshet tokens).
 # ponytail: TBN Israel removed by user request 2026-07-12 -- stopped working (the
@@ -41,7 +45,7 @@ DIRECT_CHANNELS = [
      "https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index.m3u8"),
     ("Now 14", "https://upload.wikimedia.org/wikipedia/he/thumb/0/0f/Channel_14_logo.svg/320px-Channel_14_logo.svg.png",
      "https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8?dvr=21600000"),
-    ("Channel 10 Economy", "",
+    ("Channel 10 Economy", f"{_LOGOS}/channel10economy.png",
      "https://r.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8?dvr=21600000"),
     ("Channel 9 Russian", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Channel_9_Israel_Logo.svg/320px-Channel_9_Israel_Logo.svg.png",
      "https://contact.gostreaming.tv/Con-11/index.m3u8"),
@@ -57,8 +61,8 @@ DIRECT_CHANNELS = [
      "https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8"),
     ("Ynet Live", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ynet_website_logo.svg/320px-Ynet_website_logo.svg.png",
      "https://ynet-live-01.ynet-pic1.yit.co.il/ynet/live.m3u8"),
-    ("100FM TV", "", "https://cdn.cybercdn.live/Radios_100FM/Video/playlist.m3u8"),
-    ("Hidabroot 97", "", "https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8"),
+    ("100FM TV", f"{_LOGOS}/100fm.png", "https://cdn.cybercdn.live/Radios_100FM/Video/playlist.m3u8"),
+    ("Hidabroot 97", f"{_LOGOS}/hidabroot97.png", "https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8"),
 ]
 
 def get_ticket(path):
