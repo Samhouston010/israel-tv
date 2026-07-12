@@ -1,16 +1,16 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Keshet 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Keshet 12
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8?hdnea=st%3D1783861760%7Eexp%3D1783862660%7Eacl%3D%2F*%7Ehmac%3D9bfa1a684d85fbf2a2c47fe2f3da7b64a04f2e7a7485ed3e6b8ed73629e9a39c
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8?hdnea=st%3D1783862863%7Eexp%3D1783863763%7Eacl%3D%2F*%7Ehmac%3D6fa487f2d39e271843a33393f12db2e4d7c5a23b0bd748b78b848ed18ab30653
 #EXTINF:-1 tvg-name="Keshet 12 DVR" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Keshet 12 DVR
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12dvr/index.m3u8?hdnea=st%3D1783861760%7Eexp%3D1783862660%7Eacl%3D%2F*%7Ehmac%3D9bfa1a684d85fbf2a2c47fe2f3da7b64a04f2e7a7485ed3e6b8ed73629e9a39c
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12dvr/index.m3u8?hdnea=st%3D1783862863%7Eexp%3D1783863763%7Eacl%3D%2F*%7Ehmac%3D6fa487f2d39e271843a33393f12db2e4d7c5a23b0bd748b78b848ed18ab30653
 #EXTINF:-1 tvg-name="N12 News" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",N12 News
-https://mako-streaming.akamaized.net/n12/hls/live/2103938/k12/index.m3u8?hdnea=st%3D1783861761%7Eexp%3D1783862661%7Eacl%3D%2F*%7Ehmac%3D8284b554a1e9f7133be696dfcc86c0786c2343290f3f3cfee6d4d5a3281b27ad
+https://mako-streaming.akamaized.net/n12/hls/live/2103938/k12/index.m3u8?hdnea=st%3D1783862863%7Eexp%3D1783863763%7Eacl%3D%2F*%7Ehmac%3D6fa487f2d39e271843a33393f12db2e4d7c5a23b0bd748b78b848ed18ab30653
 #EXTINF:-1 tvg-name="Keshet 12 CC" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Keshet 12 CC
-https://mako-streaming.akamaized.net/direct/hls/live/2035325/k12cc/index.m3u8?hdnea=st%3D1783861761%7Eexp%3D1783862661%7Eacl%3D%2F*%7Ehmac%3D8284b554a1e9f7133be696dfcc86c0786c2343290f3f3cfee6d4d5a3281b27ad
+https://mako-streaming.akamaized.net/direct/hls/live/2035325/k12cc/index.m3u8?hdnea=st%3D1783862864%7Eexp%3D1783863764%7Eacl%3D%2F*%7Ehmac%3De9cac9f3f0574e6bdd16d546c52185d10290a43d9bae21581073bed23389c69f
 #EXTINF:-1 tvg-name="Channel 24" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Channel 24
-https://mako-streaming.akamaized.net/direct/hls/live/2035340/ch24live/index.m3u8?hdnea=st%3D1783861762%7Eexp%3D1783862662%7Eacl%3D%2F*%7Ehmac%3D2a5e9d5bca936f580bddaf79c16d6154f71e04cced43d34c20d533db4acf2ebb
+https://mako-streaming.akamaized.net/direct/hls/live/2035340/ch24live/index.m3u8?hdnea=st%3D1783862864%7Eexp%3D1783863764%7Eacl%3D%2F*%7Ehmac%3De9cac9f3f0574e6bdd16d546c52185d10290a43d9bae21581073bed23389c69f
 #EXTINF:-1 tvg-name="Eretz Nehederet" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png" group-title="Israel",Eretz Nehederet
-https://mako-streaming.akamaized.net/free/hls/live/2111419/erets/index.m3u8?hdnea=st%3D1783861762%7Eexp%3D1783862662%7Eacl%3D%2F*%7Ehmac%3D2a5e9d5bca936f580bddaf79c16d6154f71e04cced43d34c20d533db4acf2ebb
+https://mako-streaming.akamaized.net/free/hls/live/2111419/erets/index.m3u8?hdnea=st%3D1783862864%7Eexp%3D1783863764%7Eacl%3D%2F*%7Ehmac%3De9cac9f3f0574e6bdd16d546c52185d10290a43d9bae21581073bed23389c69f
 #EXTINF:-1 tvg-name="Kan 11" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan 11
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="Kan 11 HD" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan 11 HD
@@ -31,7 +31,7 @@ https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/in
 https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index.m3u8
 #EXTINF:-1 tvg-name="Now 14" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/0/0f/Channel_14_logo.svg/320px-Channel_14_logo.svg.png" group-title="Israel",Now 14
 https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8?dvr=21600000
-#EXTINF:-1 tvg-name="Channel 10 Economy" tvg-logo="https://raw.githubusercontent.com/Samhouston010/israel-tv/main/logos/channel10economy.png" group-title="Israel",Channel 10 Economy
+#EXTINF:-1 tvg-name="Channel 10 Economy" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/channel10economy.png" group-title="Israel",Channel 10 Economy
 https://r.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8?dvr=21600000
 #EXTINF:-1 tvg-name="Channel 9 Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Channel_9_Israel_Logo.svg/320px-Channel_9_Israel_Logo.svg.png" group-title="Israel",Channel 9 Russian
 https://contact.gostreaming.tv/Con-11/index.m3u8
@@ -47,7 +47,7 @@ https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8
 https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8
 #EXTINF:-1 tvg-name="Ynet Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ynet_website_logo.svg/320px-Ynet_website_logo.svg.png" group-title="Israel",Ynet Live
 https://ynet-live-01.ynet-pic1.yit.co.il/ynet/live.m3u8
-#EXTINF:-1 tvg-name="100FM TV" tvg-logo="https://raw.githubusercontent.com/Samhouston010/israel-tv/main/logos/100fm.png" group-title="Israel",100FM TV
+#EXTINF:-1 tvg-name="100FM TV" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/100fm.png" group-title="Israel",100FM TV
 https://cdn.cybercdn.live/Radios_100FM/Video/playlist.m3u8
-#EXTINF:-1 tvg-name="Hidabroot 97" tvg-logo="https://raw.githubusercontent.com/Samhouston010/israel-tv/main/logos/hidabroot97.png" group-title="Israel",Hidabroot 97
+#EXTINF:-1 tvg-name="Hidabroot 97" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/hidabroot97.png" group-title="Israel",Hidabroot 97
 https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8

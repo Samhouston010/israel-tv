@@ -6,7 +6,7 @@ CDN = "https://mako-streaming.akamaized.net"
 
 # user request 2026-07-12: no logo anywhere upstream -- pulled from each channel's own
 # site/app-store listing, downloaded and self-hosted here so they can't break elsewhere
-_LOGOS = "https://raw.githubusercontent.com/Samhouston010/israel-tv/main/logos"
+_LOGOS = "https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos"
 
 # YouTube live channels -- HLS manifest URL expires after a few hours, so it's
 # re-resolved via yt-dlp on every run (same 10-min cron as the Keshet tokens).
