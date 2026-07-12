@@ -35,15 +35,15 @@ DIRECT_CHANNELS = [
      "https://kankids.media.kan.org.il/hls/live/2024820/2024820/playlist.m3u8"),
     ("Makan 33", "https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg",
      "https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8?dvr=21600000"),
-    ("Reshet 13", "https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png",
+    ("Reshet 13", f"{_LOGOS}/reshet13.png",
      "https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8"),
-    ("13 Comedy", "https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png",
+    ("13 Comedy", f"{_LOGOS}/reshet13.png",
      "https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8"),
-    ("13 Reality", "https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png",
+    ("13 Reality", f"{_LOGOS}/reshet13.png",
      "https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/index.m3u8"),
-    ("13 Vacation", "https://upload.wikimedia.org/wikipedia/he/thumb/5/54/Reshet_13_Logo.svg/320px-Reshet_13_Logo.svg.png",
+    ("13 Vacation", f"{_LOGOS}/reshet13.png",
      "https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index.m3u8"),
-    ("Now 14", "https://upload.wikimedia.org/wikipedia/he/thumb/0/0f/Channel_14_logo.svg/320px-Channel_14_logo.svg.png",
+    ("Now 14", f"{_LOGOS}/channel14.png",
      "https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8?dvr=21600000"),
     ("Channel 10 Economy", f"{_LOGOS}/channel10economy.png",
      "https://r.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8?dvr=21600000"),
@@ -57,7 +57,7 @@ DIRECT_CHANNELS = [
      "https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8"),
     ("i24 News Arabic", "https://raw.githubusercontent.com/picons/picons/master/build-source/logos/i24news.default.svg",
      "https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8"),
-    ("Sport 5", "https://upload.wikimedia.org/wikipedia/he/thumb/b/b8/Sport5_logo.svg/320px-Sport5_logo.svg.png",
+    ("Sport 5", f"{_LOGOS}/sport5.png",
      "https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8"),
     ("Ynet Live", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ynet_website_logo.svg/320px-Ynet_website_logo.svg.png",
      "https://ynet-live-01.ynet-pic1.yit.co.il/ynet/live.m3u8"),
@@ -91,7 +91,7 @@ def build():
             continue
         stream_path = path.split("?")[0]
         url = CDN + stream_path + "?" + ticket
-        logo = "https://upload.wikimedia.org/wikipedia/he/thumb/4/4e/Keshet_12_Logo_2018.svg/320px-Keshet_12_Logo_2018.svg.png"
+        logo = f"{_LOGOS}/keshet12.png"
         lines.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="Israel",{name}')
         lines.append(url)
         print(f"OK {name}")
