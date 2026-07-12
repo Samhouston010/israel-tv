@@ -6,9 +6,10 @@ CDN = "https://mako-streaming.akamaized.net"
 
 # YouTube live channels -- HLS manifest URL expires after a few hours, so it's
 # re-resolved via yt-dlp on every run (same 10-min cron as the Keshet tokens).
-YOUTUBE_CHANNELS = [
-    ("TBN Israel", "https://www.parsatv.com/index_files/channels/tbnisrael.jpg", "Mw1luoSACh4"),
-]
+# ponytail: TBN Israel removed by user request 2026-07-12 -- stopped working (the
+# hardcoded video_id was one specific broadcast; once it ends there's no fallback
+# to auto-discover a new live video id for the channel).
+YOUTUBE_CHANNELS = []
 
 KESHET_CHANNELS = {
     "Keshet 12": "/direct/hls/live/2033791/k12/index.m3u8?as=1",
