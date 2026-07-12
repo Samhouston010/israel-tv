@@ -1,8 +1,14 @@
 """Fetch fresh Keshet tokens and build israel.m3u with all Israeli channels."""
-import requests, json
+import requests, json, subprocess
 
 TOKEN_URL = "https://mass.mako.co.il/ClicksStatistics/entitlementsServicesV2.jsp"
 CDN = "https://mako-streaming.akamaized.net"
+
+# YouTube live channels -- HLS manifest URL expires after a few hours, so it's
+# re-resolved via yt-dlp on every run (same 10-min cron as the Keshet tokens).
+YOUTUBE_CHANNELS = [
+    ("TBN Israel", "https://www.parsatv.com/index_files/channels/tbnisrael.jpg", "Mw1luoSACh4"),
+]
 
 KESHET_CHANNELS = {
     "Keshet 12": "/direct/hls/live/2033791/k12/index.m3u8?as=1",
@@ -61,6 +67,14 @@ def get_ticket(path):
     except:
         return None
 
+def get_youtube_live_url(video_id):
+    try:
+        r = subprocess.run(["yt-dlp", "-g", f"https://www.youtube.com/watch?v={video_id}"],
+                            capture_output=True, text=True, timeout=30)
+        return r.stdout.strip().splitlines()[0] if r.stdout.strip() else None
+    except Exception:
+        return None
+
 def build():
     lines = ['#EXTM3U']
 
@@ -76,6 +90,15 @@ def build():
         lines.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="Israel",{name}')
         lines.append(url)
         print(f"OK {name}")
+        if name == "Keshet 12":
+            for yt_name, yt_logo, video_id in YOUTUBE_CHANNELS:
+                yt_url = get_youtube_live_url(video_id)
+                if not yt_url:
+                    print(f"SKIP {yt_name} — no stream url")
+                    continue
+                lines.append(f'#EXTINF:-1 tvg-name="{yt_name}" tvg-logo="{yt_logo}" group-title="Israel",{yt_name}')
+                lines.append(yt_url)
+                print(f"OK {yt_name}")
 
     # Direct channels
     for name, logo, url in DIRECT_CHANNELS:
