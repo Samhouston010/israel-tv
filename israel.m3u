@@ -1,16 +1,16 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Keshet 12" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/keshet12.png" group-title="Israel",Keshet 12
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8?hdnea=st%3D1788875539%7Eexp%3D1788876439%7Eacl%3D%2F*%7Ehmac%3Da18ed62509ea5f7e90ddcd122e5a27a3e272d92d531ece8c35ef5dfdf828f9c6
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8?hdnea=st%3D1788889062%7Eexp%3D1788889962%7Eacl%3D%2F*%7Ehmac%3D42e12df489c3c932c0cf637470e7bf93e7233fb66bdeba9431e56d0d9c2c6f21
 #EXTINF:-1 tvg-name="Keshet 12 DVR" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/keshet12.png" group-title="Israel",Keshet 12 DVR
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12dvr/index.m3u8?hdnea=st%3D1788875539%7Eexp%3D1788876439%7Eacl%3D%2F*%7Ehmac%3Da18ed62509ea5f7e90ddcd122e5a27a3e272d92d531ece8c35ef5dfdf828f9c6
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12dvr/index.m3u8?hdnea=st%3D1788889062%7Eexp%3D1788889962%7Eacl%3D%2F*%7Ehmac%3D42e12df489c3c932c0cf637470e7bf93e7233fb66bdeba9431e56d0d9c2c6f21
 #EXTINF:-1 tvg-name="N12 News" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/keshet12.png" group-title="Israel",N12 News
-https://mako-streaming.akamaized.net/n12/hls/live/2103938/k12/index.m3u8?hdnea=st%3D1788875539%7Eexp%3D1788876439%7Eacl%3D%2F*%7Ehmac%3Da18ed62509ea5f7e90ddcd122e5a27a3e272d92d531ece8c35ef5dfdf828f9c6
+https://mako-streaming.akamaized.net/n12/hls/live/2103938/k12/index.m3u8?hdnea=st%3D1788889062%7Eexp%3D1788889962%7Eacl%3D%2F*%7Ehmac%3D42e12df489c3c932c0cf637470e7bf93e7233fb66bdeba9431e56d0d9c2c6f21
 #EXTINF:-1 tvg-name="Keshet 12 CC" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/keshet12.png" group-title="Israel",Keshet 12 CC
-https://mako-streaming.akamaized.net/direct/hls/live/2035325/k12cc/index.m3u8?hdnea=st%3D1788875540%7Eexp%3D1788876440%7Eacl%3D%2F*%7Ehmac%3Db4b5575cada218d36a6d6bb779494084e3e5945e919db8d85d6ac5134e4986fc
+https://mako-streaming.akamaized.net/direct/hls/live/2035325/k12cc/index.m3u8?hdnea=st%3D1788889062%7Eexp%3D1788889962%7Eacl%3D%2F*%7Ehmac%3D42e12df489c3c932c0cf637470e7bf93e7233fb66bdeba9431e56d0d9c2c6f21
 #EXTINF:-1 tvg-name="Channel 24" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/keshet12.png" group-title="Israel",Channel 24
-https://mako-streaming.akamaized.net/direct/hls/live/2035340/ch24live/index.m3u8?hdnea=st%3D1788875540%7Eexp%3D1788876440%7Eacl%3D%2F*%7Ehmac%3Db4b5575cada218d36a6d6bb779494084e3e5945e919db8d85d6ac5134e4986fc
+https://mako-streaming.akamaized.net/direct/hls/live/2035340/ch24live/index.m3u8?hdnea=st%3D1788889063%7Eexp%3D1788889963%7Eacl%3D%2F*%7Ehmac%3Dfe3055f424ffa800ace5ee32cc70d97a1a5af5663ff7fddde49d94a3f436c7fe
 #EXTINF:-1 tvg-name="Eretz Nehederet" tvg-logo="https://cdn.jsdelivr.net/gh/Samhouston010/israel-tv@main/logos/keshet12.png" group-title="Israel",Eretz Nehederet
-https://mako-streaming.akamaized.net/free/hls/live/2111419/erets/index.m3u8?hdnea=st%3D1788875541%7Eexp%3D1788876441%7Eacl%3D%2F*%7Ehmac%3D47754dba9202390e295d735d3f56f414b8438bb0db5587ffacb838a9e63c11f6
+https://mako-streaming.akamaized.net/free/hls/live/2111419/erets/index.m3u8?hdnea=st%3D1788889063%7Eexp%3D1788889963%7Eacl%3D%2F*%7Ehmac%3Dfe3055f424ffa800ace5ee32cc70d97a1a5af5663ff7fddde49d94a3f436c7fe
 #EXTINF:-1 tvg-name="Kan 11" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan 11
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="Kan 11 HD" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="Israel",Kan 11 HD
