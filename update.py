@@ -20,8 +20,11 @@ KESHET_CHANNELS = {
     "Keshet 12 DVR": "/direct/hls/live/2033791/k12dvr/index.m3u8?b-in-range=800-2700",
     "N12 News": "/n12/hls/live/2103938/k12/index.m3u8?b-in-range=0-1100",
     "Keshet 12 CC": "/direct/hls/live/2035325/k12cc/index.m3u8?as=1",
-    "Channel 24": "/direct/hls/live/2035340/ch24live/index.m3u8?as=1",
-    "Eretz Nehederet": "/free/hls/live/2111419/erets/index.m3u8?b-in-range=0-1800",
+    # Channel 24 and Eretz Nehederet removed by user request 2026-09-14 --
+    # both 403ing (confirmed via logcat, not a token-refresh problem: the
+    # other Keshet channels above play fine), also shared the generic
+    # "12+" logo with no distinct art so the two looked like the same
+    # duplicated channel in the grid on top of not playing.
 }
 
 DIRECT_CHANNELS = [
